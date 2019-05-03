@@ -1,0 +1,75 @@
+This program allows the user to enter one command
+(but only one)on each input line.
+For example, if the command S is entered, then
+the program will serve the front of the queue.
+
+ The valid commands are:
+A - Append the next input character to the rear.
+P - Push the next input character to the front.
+S - Serve the front of the queue
+X - Extract the rear of the queue
+R - Retrieve and print the front entry.
+W - Retrieve and write the rear entry.
+H - This help screen
+Q - Quit
+Press <Enter> to continue.
+Select a command and press <Enter>
+s
+Serve failed, The deque is empty
+Select a command and press <Enter>
+x
+Serve failed, the deque is empty
+Select a command and press <Enter>
+r
+The deque is empty
+Select a command and press <Enter>
+w
+The deque is empty
+Select a command and press <Enter>
+a
+Enter a new key to insert:
+1
+1 appended to rear of deque
+Select a command and press <Enter>
+a
+Enter a new key to insert:
+2
+2 appended to rear of deque
+Select a command and press <Enter>
+a
+Enter a new key to insert:
+3
+3 appended to rear of deque
+Select a command and press <Enter>
+r
+The first entry is: 1
+Select a command and press <Enter>
+w
+The last entry is: 3
+Select a command and press <Enter>
+p
+Enter a new key to insert:
+4
+4 appended to front of deque
+Select a command and press <Enter>
+r
+The first entry is: 4
+Select a command and press <Enter>
+s
+successfully served the fron of the deque
+Select a command and press <Enter>
+r
+The first entry is: 1
+Select a command and press <Enter>
+w
+The last entry is: 3
+Select a command and press <Enter>
+x
+Successfully served the rear of the deque
+Select a command and press <Enter>
+w
+The last entry is: 2
+Select a command and press <Enter>
+q
+Deque demonstration finished.
+
